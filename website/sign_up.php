@@ -1,6 +1,8 @@
 <?php
 	$msg = '';
 	$msgClass = '';
+
+	require("config/db_conn.php");
 	
 	if (filter_has_var(INPUT_POST, 'submit')) {
 		session_start();
